@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CodeCloud_Example' do
+  pod 'CodeCloud', :path => '../'
+
+  target 'CodeCloud_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
