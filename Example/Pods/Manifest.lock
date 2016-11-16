@@ -1,0 +1,16 @@
+PODS:
+  - CodeCloud (0.1.0)
+
+DEPENDENCIES:
+  - CodeCloud (from `../`)
+
+EXTERNAL SOURCES:
+  CodeCloud:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CodeCloud: 34a6f5d5ec85476c1bab1f9fbadfee364c132ec0
+
+PODFILE CHECKSUM: 427e68c41337a89938950375b4d4bfea09465742
+
+COCOAPODS: 1.0.0

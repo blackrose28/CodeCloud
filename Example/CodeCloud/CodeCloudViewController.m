@@ -25,5 +25,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)Init:(id)sender {
+    _codecloud = [[CodeCloud alloc]initWithHost:@"123.30.242.204" andPort:6922 andOpts:@"{\"token\":\"c29hcHRva2VuMC40OTg1MjEwMCAxNDc0NTQ2NTY5Kzc0NDI1MzQ5\",\"app_key\":432423,\"env\":\"production\"}"];
+}
+- (IBAction)Request:(id)sender {
+    [_codecloud requestWithRoute:@"backend.room.msg" andMsg:@"{}" withTimeout:10];
+}
 
 @end

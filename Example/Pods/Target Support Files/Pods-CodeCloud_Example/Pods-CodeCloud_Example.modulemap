@@ -1,0 +1,6 @@
+framework module Pods_CodeCloud_Example {
+  umbrella header "Pods-CodeCloud_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
