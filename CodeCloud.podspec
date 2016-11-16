@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CodeCloud'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'CodeCloud SDK for ios.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ s.homepage         = 'https://github.com/blackrose28/CodeCloud'
 s.source           = { :git => 'https://github.com/blackrose28/CodeCloud.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.1'
 
 s.source_files        = 'CodeCloud/Classes/*.h'
 s.public_header_files = 'CodeCloud/Classes/*.h'
