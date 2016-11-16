@@ -1,6 +1,0 @@
-framework module CodeCloud {
-  umbrella header "CodeCloud-umbrella.h"
-
-  export *
-  module * { export * }
-}
