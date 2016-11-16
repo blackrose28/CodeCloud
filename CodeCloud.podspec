@@ -30,9 +30,11 @@ s.source           = { :git => 'https://github.com/blackrose28/CodeCloud.git', :
 
   s.ios.deployment_target = '8.0'
 
-s.source_files        = 'CodeCloud/Classes/**/*'
+s.source_files        = 'CodeCloud/Classes/*.h'
+s.public_header_files = 'CodeCloud/Classes/*.h'
+s.preserve_paths = 'libcodecloud.a','libuv.a','libssl.a','libcrypto.a'
+s.ios.vendored_library = 'libcodecloud.a','libuv.a','libssl.a','libcrypto.a'
 s.libraries = 'uv','ssl','crypto','codecloud'
-s.pod_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(SRCROOT)/" }
 
   # s.resource_bundles = {
   #   'CodeCloud' => ['CodeCloud/Assets/*.png']
